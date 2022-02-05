@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
     <title>Panda E-Commerce Site</title>
   </head>
   <body>
@@ -34,13 +35,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#bag">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe </a>
+                <a class="nav-link" href="#subscribe">Subscribe </a>
               </li>
           </div>
         </div>
@@ -49,12 +50,12 @@
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row p-5 d-flex align-items-center bg-info bg-gradient">
+                <div class="row p-5 d-flex align-items-center carousel-bg bg-gradient">
                   <div class="col-lg-7">
                     <h1>Cool Dude Headphone</h1>
                     <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                     <h1>$420</h1>
-                    <button class="btn btn-warning">Buy Now</button>
+                    <button class="btn-bg">Buy Now</button>
                   </div>
                   <div class="col-lg-5">
                       <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -67,7 +68,7 @@
                     <h1>Mega LCD TV For Sports</h1>
                     <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
                     <h1>$1200</h1>
-                    <button class="btn btn-warning">Buy Now</button>
+                    <button class="btn-bg">Buy Now</button>
                   </div>
                   <div class="col-lg-5">
                       <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -75,12 +76,12 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row p-5 d-flex align-items-center bg-info bg-gradient">
+                <div class="row p-5 d-flex align-items-center carousel-bg bg-gradient">
                   <div class="col-lg-7">
                     <h1>X-Box for your living room</h1>
                     <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
                     <h1>$600</h1>
-                    <button class="btn btn-warning">Buy Now</button>
+                    <button class="btn-bg">Buy Now</button>
                   </div>
                   <div class="col-lg-5">
                       <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -100,7 +101,7 @@
         </div>
     </header>
     <main>
-      <section class="container my-5">
+      <section class="container my-5 categories">
         <div class="row g-4">
           <div class="col-lg-4 col-md-6">
             <div class="p-3 border rounded bg-warning d-flex align-items-center justify-content-between">
@@ -122,7 +123,7 @@
           </div>
         </div>
       </section>
-      <section class="container my-5" id="watch">
+      <!-- <section class="container my-5" id="watch">
         <h2>Watches</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -134,7 +135,7 @@
               </div>
               <div class="m-3">
                 <h3>$120</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -147,7 +148,7 @@
               </div>
               <div class="m-3">
                 <h3>$320</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -160,12 +161,12 @@
               </div>
               <div class="m-3">
                 <h3>$350</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="container my-5" id="bag">
         <h2>Backpack</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -178,7 +179,7 @@
               </div>
               <div class="m-3">
                 <h3>$120</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -191,7 +192,7 @@
               </div>
               <div class="m-3">
                 <h3>$320</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -204,7 +205,7 @@
               </div>
               <div class="m-3">
                 <h3>$350</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -222,7 +223,7 @@
               </div>
               <div class="m-3">
                 <h3>$120</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -235,7 +236,7 @@
               </div>
               <div class="m-3">
                 <h3>$320</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
@@ -248,18 +249,18 @@
               </div>
               <div class="m-3">
                 <h3>$350</h3>
-                <button class="btn btn-warning">Buy Now</button>
+                <button class="btn-bg">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="container rounded-3 d-flex justify-content-center align-items-center my-5 subscribe" style="background-color:#FEEAE9; height:300px">
+      <section class="container rounded-3 d-flex justify-content-center align-items-center my-5 " id="subscribe" style="background-color:#FEEAE9; height:300px">
         <div>
           <h1>LET'S STAY IN TOUCH</h1>
           <p>Get updates on sales, specials, and more</p>
-          <input type="text" placeholder="Your Email"> <br>
-          <button class="btn btn-warning my-2">Subscribe Now</button>
+          <input class="form-control" type="text" placeholder="Your Email"> <br>
+          <button class="btn-bg my-2">Subscribe Now</button>
         </div>
       </section>
     </main>
